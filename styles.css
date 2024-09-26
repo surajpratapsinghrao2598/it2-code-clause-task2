@@ -1,0 +1,35 @@
+body {
+  background-color: #f8f9fa;
+}
+
+#preview {
+  height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #6c757d;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#preview.show-text {
+  color: #fff;
+  background-image: none;
+}
+
+#css-code {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+#css-text {
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
